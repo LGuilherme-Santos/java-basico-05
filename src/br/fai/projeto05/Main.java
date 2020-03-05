@@ -13,7 +13,11 @@ public class Main {
 	private void start() {
 		
 		System.out.println("Enviando essa branch para o github");
+		usandoFor();
 		
+		}
+	
+	private void usandoFor() {
 		for (int i = 0; i < 5; i++) {
 			switch (i) {
 			case 1: System.out.println("Primeira condição");
@@ -26,9 +30,10 @@ public class Main {
 				System.out.println("Não encontrou nenhuma condição");
 				break;
 			}
-		}
 	}
 	
+		
+	}
 	
 
 }
